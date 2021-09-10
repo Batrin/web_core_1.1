@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h5, p{
+    font-family: 'Barlow', sans-serif;
+    color: #2A4A5C;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.main_cont{
+    width: 100%;
+    height: 100vh;
+    background-color: #EFF6FF;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_cont{
+    width: 70%;
+    height: 90%;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);    
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.left_img_cont{
+    width: 50%;
+    height: 100%;
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+}
+
+.right_info_cont{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: inline-flex;
+    padding-left: 50px;
+    flex-direction: column;
+}
+
+.top_social_block{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.top_text{
+    line-height: 2.5em;
+}
+
+.top_social_buttons{
+    width: 90%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.top_button{
+    width: 45%;
+    height: 35px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 0.7s;
+    cursor: pointer;
+    
+}
+
+.top_button:hover{
+    border-radius: 20px;
+}
+
+.top_button p{
+    color: white;
+    font-size: 14px;
+}
+
+.facebook_button{
+    background-color: #255A9B;
+}
+
+.link_button{
+    background-color: #0076B6;
+}
+
+.button_inner{
+    margin-left: 10px;
+    width: 85%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social_icon{
+    width: 15px;
+    height: 15px;
+}
+
+.or_block{
+    margin-top: 40px;
+    width: 90%;
+    text-align: center; 
+}
+
+.or_block p{
+    position: relative;
+    display: inline-flex;
+    font-size: 14px;
+}
+
+.or_block p::after{
+    position: absolute;
+    content: '';
+    background-color: #2A4A5C;
+    width: 100px;
+    height: 1px;
+    top: 50%;
+    left: 25px;
+    
+}
+
+.or_block p::before{
+    position: absolute;
+    content: '';
+    background-color: #2A4A5C;
+    width: 100px;
+    height: 1px;
+    top: 50%;
+    right: 25px;  
+}
+
+.botton_login_block{
+    width: 100%;
+}
+
+.input_block{
+    width: 90%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.form_input{
+    height: 35px;
+    width: 45%;
+    position: relative;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.form_input:focus{
+    border-left: 3px solid #0076B6;
+}
+
+.select_invest_block{
+    margin-top: 30px;
+}
+
+.select_invest_text{
+    line-height: 2em;
+}
+
+.select_invest_text p{
+    font-size: 14px;
+}
+
+.selectors_group{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.selectors_group p+p{
+    margin-left: 30px;
+}
+
+.selectors_group p input{
+    margin-right: 5px;
+}
+
+.description_selector{
+    width: 45%;
+    height:70px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1); 
+    margin-top: 20px;
+    padding: 5px;   
+}
+
+.description_selector p{
+    font-size: 14px;
+}
+
+.privacy_police_block{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.privacy_police_block p{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.submit_info{
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #0076B6;
+    border: 2px solid #0076B6;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.submit_info:hover{
+    background: white;
+}
+
+.submit_info:hover p{
+    color: black;
+}
+
+.submit_info p{
+    color: white;
+}
+
+
+
+
+
+
+
